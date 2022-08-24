@@ -48,10 +48,7 @@
    max-width: 85px;
    width: 100%;
    border-radius: 50%;
-  }
-   .col-6 p {
-  float: left;
- }
+}
  .icon {
    max-width: 180px;
    width: 100%;
@@ -87,9 +84,7 @@
   color:white; 
   margin-left: 15px;
  }
- .center{
- margin-left: 25px;
- }
+ 
 @media only screen and (max-width: 960px){
  .navbar-brand {
    margin-left: auto;
@@ -135,9 +130,6 @@
   width: 100%;
   border-radius: 50%;
  }
- .col-6 p {
-  float: left;
- }
  #navbarTogglerDemo02 {
    display: none;
    position: relative;
@@ -157,7 +149,5 @@
  #btn:checked  ~  #navbarTogglerDemo02{
    display: flex;
  }
- .center{
- margin-left: 25px;
- }
+
 }
