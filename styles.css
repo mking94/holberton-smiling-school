@@ -1,4 +1,4 @@
- * {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: boder-box;
@@ -48,7 +48,11 @@
    max-width: 85px;
    width: 100%;
    border-radius: 50%;
-}
+  }
+  .col-6 p {
+  float: left;
+  margin-left: -15px;
+ }
  .icon {
    max-width: 180px;
    width: 100%;
@@ -84,7 +88,7 @@
   color:white; 
   margin-left: 15px;
  }
- 
+   
 @media only screen and (max-width: 960px){
  .navbar-brand {
    margin-left: auto;
@@ -146,8 +150,7 @@
   color:white; 
   margin-left: 0;
  } 
- #btn:checked  ~  #navbarTogglerDemo02{
+ #btn:checked  ~  #navbarTogglerDemo02 {
    display: flex;
  }
-
 }
