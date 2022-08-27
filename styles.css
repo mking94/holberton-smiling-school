@@ -1,4 +1,4 @@
-  * {
+ * {
   margin: 0;
   padding: 0;
   box-sizing: boder-box;
@@ -113,6 +113,33 @@
   width: 20px;
   height: 18px;
  }
+ .purple-text {
+   color: #c271ff;
+ }
+ #membership {
+  max-width:1400px;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  background: #071629;
+ }
+
+ #membership .col-sm{
+  margin-left: 45px;
+ }
+ #membership .col-sm img{
+  width:55px;
+ }
+ #membership #text h6 {
+  color: white;
+  margin-left: -5px;
+ }
+ 
+ #membership #text p {
+ color: white;
+ margin-left: -55px;
+ }
+
 @media only screen and (max-width: 960px){
  .navbar-brand {
    margin-left: auto;
@@ -178,7 +205,6 @@
    display: flex;
  }
 }
-
 
 @media only screen and (max-width:540px) {
  #most_popular .row{
