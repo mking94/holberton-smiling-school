@@ -140,13 +140,13 @@
  margin-left: -55px;
  }
 
- #last_video {
+ #last_videos {
   width: 100%;
   height: auto;
   background: white;
  }
 
- #last_video .row{
+ #last_videos .row{
   margin-left: auto;
   margin-right: auto;
  }
@@ -221,7 +221,7 @@
  #most_popular .row{
   margin-left: 25%;
  }
- #last_video .row{
+ #last_videos .row{
   margin-left: 25%;
  }
 }
