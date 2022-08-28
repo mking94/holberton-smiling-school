@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: boder-box;
@@ -14,6 +14,24 @@
   background: url(https://www.zupimages.net/up/22/34/olv0.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
+  min-height: 450px;
+ }
+ #header {
+  background: url(images/pic_2.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;	
+  min-height: 450px;
+  height:100%;
+ }
+ #header img{
+  filter: brightness(0) invert(1);
+ }
+ #header p{
+  font-size: 35px;
+  margin-top: 5%;
+ }
+ #header h1{
+  margin-top: 10%;
  }
  .bg-purple {
   background: #bb63f9;
