@@ -253,8 +253,13 @@ background:#071629 ;
  border-radius: 50%;
  font-size: 1.5rem;
 }
-
+ .f{
+	 visibility:hidden;
+  }
 @media only screen and (max-width: 960px){
+ .f{
+	 visibility: visible ;
+ }
  .navbar-brand {
    margin-left: auto;
    margin-right: auto;
